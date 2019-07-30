@@ -1,0 +1,66 @@
+# AccountDetailsM
+
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**acct_no** | **int** | The Aria assigned ID of the account | [optional] 
+**client_acct_id** | **str** | Client specified account identifier | [optional] 
+**user_id** | **str** | The client defined user_id for the account | [optional] 
+**first_name** | **str** |  | [optional] 
+**mi** | **str** | Middle initial | [optional] 
+**last_name** | **str** |  | [optional] 
+**company_name** | **str** |  | [optional] 
+**address1** | **str** |  | [optional] 
+**address2** | **str** |  | [optional] 
+**address3** | **str** |  | [optional] 
+**city** | **str** |  | [optional] 
+**locality** | **str** |  | [optional] 
+**state_prov** | **str** | State or Province Name | [optional] 
+**state_prov_cd** | **str** | State or Province Code | [optional] 
+**country_cd** | **str** |  | [optional] 
+**postal_cd** | **str** | Postal code | [optional] 
+**phone** | **str** |  | [optional] 
+**phone_ext** | **str** |  | [optional] 
+**cell_phone** | **str** |  | [optional] 
+**work_phone** | **str** |  | [optional] 
+**work_phone_ext** | **str** |  | [optional] 
+**fax** | **str** |  | [optional] 
+**email** | **str** |  | [optional] 
+**stmt_email_list_cc** | **str** | Array containing the list of additional cc and bcc email addresses. | [optional] 
+**stmt_email_list_bcc** | **str** | Array containing the list of additional cc and bcc email addresses. | [optional] 
+**birthdate** | **str** |  | [optional] 
+**status_cd** | **str** | The status code of the account. See the Aria Account Services API documentation for details  | [optional] 
+**notify_method** | **int** |  | [optional] 
+**senior_acct_no** | **int** | The Aria assigned ID of the parent account, if any. | [optional] 
+**senior_acct_user_id** | **str** | The user_id of the parent account, if any. | [optional] 
+**senior_client_acct_id** | **str** | The client specified account identifier of the parent account, if any. | [optional] 
+**test_acct_ind** | **int** |  | [optional] 
+**taxpayer_id** | **str** |  | [optional] 
+**acct_start_date** | **str** |  | [optional] 
+**alt_msg_template_no** | **int** |  | [optional] 
+**seq_func_group_no** | **int** |  | [optional] 
+**tax_exemption_level** | **int** |  | [optional] 
+**client_alt_msg_template_id** | **str** |  | [optional] 
+**client_cn_alt_msg_template_id** | **str** |  | [optional] 
+**functional_acct_groups** | [**list[FunctionalAcctGroup]**](FunctionalAcctGroup.md) |  | 
+**collection_acct_groups** | [**list[CollectionAcctGroup]**](CollectionAcctGroup.md) |  | 
+**acct_supp_fields** | [**list[AcctSuppField]**](AcctSuppField.md) |  | [optional] 
+**surcharge_no** | [**list[SurchargeNo]**](SurchargeNo.md) |  | 
+**acct_currency** | **str** |  | [optional] 
+**acct_balance** | **str** |  | [optional] 
+**unapplied_payment_summary** | **float** | Total sum of unapplied payments for a given account | [optional] 
+**address_verification_code** | **str** |  | [optional] 
+**address_match_score** | **int** |  | [optional] 
+**billing_groups** | [**list[BillingGroup]**](BillingGroup.md) |  | [optional] 
+**master_plan_instances** | [**list[MasterPlanInstance]**](MasterPlanInstance.md) |  | [optional] 
+**consumer_acct_ind** | **str** |  | [optional] 
+**po_num** | **str** | Purchase order number assigned to the account or plan instance. | [optional] 
+**list_start_master_file** | **int** | Indicates whether or not the account shall be listed at the start of a master file. | [optional] 
+**matching_contacts** | [**list[MatchingContact]**](MatchingContact.md) |  | [optional] 
+**legal_entity_no** | **int** | Aria-assigned legal entity identification number. | [optional] 
+**legal_entity_name** | **str** | Client-assigned descriptor of the legal entity. | [optional] 
+**client_legal_entity_id** | **str** | Client-assigned unique identifier for the legal entity. | [optional] 
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+
